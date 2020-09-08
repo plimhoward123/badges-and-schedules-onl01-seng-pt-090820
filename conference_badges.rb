@@ -27,7 +27,7 @@ def printer(rry)
   roomArray = assign_rooms(rry)
 
   while indx1 < myArray.size
-    puts myArray[0]
+    puts myArray[indx1]
     indx1+=1
   end
 end
