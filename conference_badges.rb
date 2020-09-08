@@ -23,6 +23,7 @@ end
 def printer(rry)
   indx1 = 0
   indx2 = 0
+  
   myArray = batch_badge_creator(rry)
   roomArray = assign_rooms(rry)
 
@@ -30,4 +31,10 @@ def printer(rry)
     puts myArray[indx1]
     indx1+=1
   end
+
+  while indx2 < roomArray.size
+    puts roomArray[indx2]
+    indx2+=1
+  end
+  
 end
