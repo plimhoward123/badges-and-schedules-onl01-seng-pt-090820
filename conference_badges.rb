@@ -15,7 +15,7 @@ def assign_rooms(rry)
   indx = 0
   rry.each do |guests|
     indx+=1
-    myArray << "Hello, #{guests}! You'll be assigned to room #{indx}"
+    myArray << "Hello, #{guests}! You'll be assigned to room #{indx}."
   end
   return myArray
 end
