@@ -21,6 +21,11 @@ def assign_rooms(rry)
 end
 
 def printer(rry)
-  puts batch_badge_creator(rry)[0]
-  puts assign_rooms(rry)[0]
+  indx1 = 0
+  indx2 = 0
+  
+  myArray = batch_badge_creator(rry)
+  roomArray = assign_rooms(rry)
+  puts myArray[0]
+  puts roomArray[0]
 end
