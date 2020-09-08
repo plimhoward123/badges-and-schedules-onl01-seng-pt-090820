@@ -21,11 +21,9 @@ def assign_rooms(rry)
 end
 
 def printer(rry)
-  indx1 = 0
-  indx2 = 0
-
   myArray = batch_badge_creator(rry)
   roomArray = assign_rooms(rry)
-  puts myArray[0]
-  puts roomArray[0]
+  myArray.each do |welcome|
+    puts "#{welcome}"
+  end
 end
