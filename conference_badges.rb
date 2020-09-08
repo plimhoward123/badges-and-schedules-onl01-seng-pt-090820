@@ -20,6 +20,7 @@ def assign_rooms(rry)
   return myArray
 end
 
-def printer
-
+def printer(rry)
+  puts batch_badge_creator(rry)
+  puts assign_rooms(rry)
 end
