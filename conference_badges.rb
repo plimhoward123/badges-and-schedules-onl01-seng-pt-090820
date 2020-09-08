@@ -10,11 +10,13 @@ def batch_badge_creator(rry)
   return myArray
 end
 def assign_rooms(rry)
+  myArray = Array.new
   indx = 0
   rry.each do |guests|
     indx+=1
-    puts "Hello, #{guests}! You'll be assigned to room #{indx}"
+    myArray << "Hello, #{guests}! You'll be assigned to room #{indx}"
   end
+  return myArray
 end
 
 def printer
