@@ -3,16 +3,18 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(rry)
+  myArray = Array.new
+  rry.each do |guests|
+    myArray << "Hello, my name is #{guests}"
+  end
+  return my 
+end
+def assign_rooms(rry)
   indx = 0
-  a = new array[]
   rry.each do |guests|
     indx+=1
-    a +  "Hello, #{guests}! You'll be assigned to room #{indx}"
+    puts "Hello, #{guests}! You'll be assigned to room #{indx}"
   end
-  return a
-end
-def assign_rooms
-
 end
 
 def printer
