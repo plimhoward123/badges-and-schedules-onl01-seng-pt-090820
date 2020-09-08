@@ -23,7 +23,7 @@ end
 def printer(rry)
   indx1 = 0
   indx2 = 0
-  
+
   myArray = batch_badge_creator(rry)
   roomArray = assign_rooms(rry)
   puts myArray[0]
