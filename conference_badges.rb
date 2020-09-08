@@ -7,7 +7,7 @@ def batch_badge_creator(rry)
   rry.each do |guests|
     myArray << "Hello, my name is #{guests}"
   end
-  return my 
+  return my
 end
 def assign_rooms(rry)
   indx = 0
