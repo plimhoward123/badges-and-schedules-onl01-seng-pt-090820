@@ -22,5 +22,5 @@ end
 
 def printer(rry)
   myArray = batch_badge_creator(rry)
-  puts myArray[0]
+  print myArray[0]
 end
